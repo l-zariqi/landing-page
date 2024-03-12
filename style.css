@@ -10,8 +10,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
     align-items: top;
+    padding: 16px;
+    margin-bottom: 50px;
 }
 
 .header-logo {
@@ -36,4 +37,8 @@ a {
 .right-links {
     display: flex;
     align-items: center;
+}
+
+.information {
+    background-color: white;
 }
