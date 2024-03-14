@@ -2,17 +2,15 @@
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    align-items: top;
-    padding: 16px;
-    margin-bottom: 50px;
 }
 
 .header-logo {
@@ -39,6 +37,57 @@ a {
     align-items: center;
 }
 
-.information {
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.placeholder-img {
+    background-color: darkgrey;
+}
+
+.information-container {
     background-color: white;
+}
+
+.information-header {
+    text-align: center;
+}
+
+.information-centre {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-line {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-tag {
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
 }
